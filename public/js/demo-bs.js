@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-console.log('hello browser-sync');
+console.log('Hello Browsersync! haha');
 
 /***/ }),
 

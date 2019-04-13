@@ -12,7 +12,7 @@
 <div class="container d-block py-5">
 
     <div class="text-center">
-        <h1 class="title text-center">Browser Sync 示例</h1>
+        <h1 class="title text-center">hi Browsersync 示例</h1>
     </div>
 
     <div class="row">
@@ -46,7 +46,7 @@
 'public/css/**/*.css'
                     </code>
                 </pre>
-                <p>这意味着上面列出的文件变动后页面都会自动刷新。你也可以修改 BrowserSync 的 files 配置项来监听更多的文件变化。在 webpack.mix.bs.js 中通过 mix.browserSync() 方法修改。</p>
+                <p>这意味着上面列出的文件变动后页面都会自动刷新。你也可以修改 Browsersync 的 files 配置项来监听更多的文件变化。在 webpack.mix.bs.js 中通过 mix.browserSync() 方法修改。</p>
             </div>
         </div>
     </div>

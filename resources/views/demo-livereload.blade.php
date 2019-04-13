@@ -32,6 +32,9 @@
                 <p>
                     Live Reload 仅响应当前页面所加载的前端资源变化，对于本页前说也就是仅当编辑上面两个文件会触发自动刷新。编辑 demo-livereload.blade.php 模板及其它文件不会自动刷新。这与 BrowserSync 不同。
                 </p>
+
+
+                <h1>哈哈</h1>
             </div>
         </div>
     </div>

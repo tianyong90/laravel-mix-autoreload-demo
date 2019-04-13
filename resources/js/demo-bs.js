@@ -1,1 +1,1 @@
-console.log('hello browser-sync')
+console.log('Hello Browsersync! haha')
