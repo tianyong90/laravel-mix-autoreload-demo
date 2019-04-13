@@ -6,7 +6,7 @@
 
     <title>Laravel</title>
 
-    <link rel="stylesheet" href="{{ mix('css/app-bs.css') }}">
+    <link rel="stylesheet" href="{{ mix('css/demo-bs.css') }}">
 </head>
 <body>
 <div class="container d-block py-5">
@@ -16,7 +16,7 @@
     </div>
 
     <div class="row">
-        <div class="col-6 mx-auto">
+        <div class="col-8 col-lg-6 mx-auto">
             <div>尝试修改以下文件，观察页面刷新效果</div>
 
             <ul class="list">
@@ -49,9 +49,8 @@
                 <p>这意味着上面列出的文件变动后页面都会自动刷新。你也可以修改 BrowserSync 的 files 配置项来监听更多的文件变化。在 webpack.mix.bs.js 中通过 mix.browserSync() 方法修改。</p>
             </div>
         </div>
-
     </div>
-
 </div>
+<script src="{{ mix('js/demo-bs.js') }}"></script>
 </body>
 </html>

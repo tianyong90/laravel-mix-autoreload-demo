@@ -15,6 +15,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/index-hmr', 'IndexController@indexHmr');
-Route::get('/index-bs', 'IndexController@indexBs');
-Route::get('/index-livereload', 'IndexController@indexLivereload');
+Route::get('/demo-hmr', 'DemoController@hmr');
+Route::get('/demo-bs', 'DemoController@bs');
+Route::get('/demo-livereload', 'DemoController@livereload');
