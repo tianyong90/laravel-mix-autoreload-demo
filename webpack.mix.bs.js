@@ -11,13 +11,13 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/js/app.js', 'public/js')
-   .sass('resources/sass/app.scss', 'public/css');
+mix.js('resources/js/app-bs.js', 'public/js')
+   .sass('resources/sass/app-bs.scss', 'public/css');
 
 mix.browserSync({
    proxy: 'laravel-mix-autoreload-demo.test/',
-   startPath: '',
-   open: false,
+   startPath: '/index-bs',
+   open: true,
    reloadOnRestart: true,
    watchOptions: {
       usePolling: true,

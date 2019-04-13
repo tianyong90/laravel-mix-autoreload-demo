@@ -1,0 +1,45 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+html,
+body {
+  background-color: #dedede;
+}
+
+.title {
+  display: inline-block;
+  width: 400px;
+  background-color: #000;
+  padding: 0.2rem 2rem;
+  color: #fff;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+}
+
+.list {
+  display: block;
+  overflow: hidden;
+  padding: 0;
+  margin-top: 20px;
+  list-style: none;
+  background-color: #fff;
+  
+  .list-item {
+    display: block;
+    background-color: #fff;
+    padding: 0.5rem;
+    border-bottom: 1px dashed #ddd;
+  }
+}
+
+pre {
+  display: block;
+  background-color: #fff;
+  padding: 0.5rem;
+}
