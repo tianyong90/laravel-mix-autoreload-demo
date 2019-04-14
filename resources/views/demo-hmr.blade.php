@@ -12,9 +12,10 @@
             <example-component></example-component>
         </div>
 
+        {{--非 hmr 模式下才使用了，mix.extract(),因此此处也需要进行判断--}}
         @unless(!file_exists(public_path('/hot')))
-        <script src="{{ mix('/js/manifest.js') }}"></script>
-        <script src="{{ mix('/js/vendor.js') }}"></script>
+            <script src="{{ mix('/js/manifest.js') }}"></script>
+            <script src="{{ mix('/js/vendor.js') }}"></script>
         @endunless
 
         <script src="{{ mix('/js/demo-hmr.js') }}"></script>

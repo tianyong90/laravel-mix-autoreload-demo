@@ -7,7 +7,7 @@
 
                     <div class="card-body">
                         <p>修改 resources/js/demo-hmr.js 会触发页面完全刷新。</p>
-                        <p>修改 resource/js/components/ExampleComponent.vue 以及 resource/scss/demo-hmr.scss 则会触发模块热替换</p>
+                        <p>修改 resource/js/components/ExampleComponent.vue 以及 resource/sass/demo-hmr.scss 则会触发模块热替换</p>
                         <p>修改后端及 blade 模板文件不会触发</p>
                     </div>
                 </div>

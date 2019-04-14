@@ -5,6 +5,9 @@ mix.disableNotifications()
 mix.js('resources/js/demo-hmr.js', 'public/js')
    .sass('resources/sass/demo-hmr.scss', 'public/css');
 
+// 使用 hmr 和时候不使用 mix.extract()
+// 避免冲突
+// https://github.com/laravel-enso/Enso/issues/194
 if (!Mix.isUsing('hmr')) {
    mix.extract(['vue', 'axios'])
 }

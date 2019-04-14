@@ -21,13 +21,13 @@
 
             <ul class="list">
                 <li class="list-item">
-                    /resources/views/index-bs.blade.php
+                    /resources/views/demo-bs.blade.php
                 </li>
                 <li class="list-item">
-                    /resources/js/app-bs.js
+                    /resources/js/demo-bs.js
                 </li>
                 <li class="list-item">
-                    /resources/scss/app-bs.scss
+                    /resources/sass/demo-bs.scss
                 </li>
             </ul>
 

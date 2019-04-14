@@ -24,7 +24,7 @@
                     /resources/js/demo-livereload.js
                 </li>
                 <li class="list-item">
-                    /resources/scss/demo-livereload.scss
+                    /resources/sass/demo-livereload.scss
                 </li>
             </ul>
 
